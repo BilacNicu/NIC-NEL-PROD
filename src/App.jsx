@@ -59,7 +59,7 @@ function App() {
     <div className='content'>
     <AnimatePresence>
       <Switch>
-        <Route exact path='/nicnelprod/'>
+        <Route exact path='/nic-nel-prod/'>
           <HomePage />
         </Route>
         <Route path='/portofoliu'>
