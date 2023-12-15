@@ -8,6 +8,7 @@ import {AllBtn, BirouriBtn, BucatariiBtn, DormitoareBtn,
    import {OverlayGalleryStandard} from "./styles/gallery/OverlayGalleryStandard";
    import AnimatedPage from './components/animations/AnimationPage';
 import mainTextPicturePicCamereDeZi from "./assets/living.webp";
+import logo from '../public/react.png'
 
 const CamereDeZiPage = () => {
 
@@ -138,7 +139,7 @@ const CamereDeZiPage = () => {
 
     <div className="footer">
   <div className="footerBarLeftSide">
-   <img src='/react.png' className='logo'></img>
+   <img src={logo} className='logo'></img>
    <p className="copyright">NIC NEL PROD © Toate Drepturile Rezervate</p>
   </div>
   <div className="footerBarRightSide">
