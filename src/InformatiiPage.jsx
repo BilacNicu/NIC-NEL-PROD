@@ -3,6 +3,7 @@ import backgroundVideo2 from '../src/assets/carpentry.mp4';
 import backgroundVideo3 from '../src/assets/carpentry3.mp4';
 import {MailBtn, PhoneBtn, LocationBtn} from '../src/Buttons';
 import AnimatedPage from './components/animations/AnimationPage';
+import logo from "../public/react.png"
 
 const InformatiiPage = () => {
 
@@ -52,7 +53,7 @@ const InformatiiPage = () => {
 
     <div className="footer">
   <div className="footerBarLeftSide">
-   <img src='/react.png' className='logo'></img>
+   <img src={logo} className='logo'></img>
    <p className="copyright">NIC NEL PROD © Toate Drepturile Rezervate</p>
   </div>
   <div className="footerBarRightSide">
