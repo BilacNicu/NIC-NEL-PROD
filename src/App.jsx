@@ -6,7 +6,7 @@ import HomePage from './HomePage';
 import PortofoliuPage from './PortofoliuPage';
 import ContactPage from './ContactPage';
 import InformatiiPage from './InformatiiPage';
-import CotatiePage from './CotatiePage';
+import PoliticaDeConfidentialitatePage from './PoliticaDeConfidentialitatePage';
 import { Overlay } from './Overlay';
 import { useState, useEffect, useRef} from 'react';
 import './styles/Buttons.css';
@@ -71,8 +71,8 @@ function App() {
         <Route path='/informatii'>
            <InformatiiPage />
         </Route>
-        <Route path='/cotatie'>
-           <CotatiePage />
+        <Route path='/politicaDeConfidentialitate'>
+           <PoliticaDeConfidentialitatePage />
         </Route>
       </Switch>
       </AnimatePresence>

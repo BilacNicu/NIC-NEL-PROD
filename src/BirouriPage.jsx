@@ -7,6 +7,7 @@ import {AllBtn, BirouriBtn, BucatariiBtn, DormitoareBtn,
   import { useEffect, useState } from 'react';
   import {OverlayGalleryStandard} from "./styles/gallery/OverlayGalleryStandard";
   import mainTextPicturePic from "./assets/officeMain.jpg";
+import logo from "../public/react.png";
 
 const BirouriPage = () => {
 
@@ -137,7 +138,7 @@ const BirouriPage = () => {
 
      <div className="footer">
   <div className="footerBarLeftSide">
-   <img src='/react.png' className='logo'></img>
+   <img src={logo} className='logo'></img>
    <p className="copyright">NIC NEL PROD © Toate Drepturile Rezervate</p>
   </div>
   <div className="footerBarRightSide">

@@ -23,6 +23,11 @@ const HomePage = () => {
 
     const hiddenElementsRight = document.querySelectorAll('.hiddenRight');
     const hiddenElementsLeft = document.querySelectorAll('.hiddenLeft');
+    const hiddenElementsLeft50 = document.querySelectorAll('.hiddenLeft50');
+    hiddenElementsLeft50.forEach((el) => {
+      observer.observe(el);
+      el.classList.add('hiddenLeft50');
+    });
     hiddenElementsRight.forEach((el) => {
       observer.observe(el);
       el.classList.add('hiddenRight');
@@ -84,7 +89,7 @@ const HomePage = () => {
     </div>
   </div>
 
-  <div className="dormitoareOverlay overlayHome hiddenLeft">
+  <div className="dormitoareOverlay overlayHome hiddenRight">
     <div className="dormitoare">
     <div className="rightAngleDormitoare">
      <h1 className="dormitoareTitle">Dormitoare</h1>
@@ -108,7 +113,7 @@ const HomePage = () => {
    
   </div>
 
-  <div className="birouriSiComercialeOverlay overlayHome hiddenLeft">
+  <div className="birouriSiComercialeOverlay overlayHome hiddenRight">
     <div className="birouriSiComerciale">
       <div className="rightAngleBsiC">
       <h1 className="BsiCTitle">Birouri</h1>
@@ -121,7 +126,7 @@ const HomePage = () => {
 
 </div>
   <div className="secondText">
-    <div className="leftSideSTxt hiddenLeft">
+    <div className="leftSideSTxt hiddenLeft50">
     <p className="startSText">
     Așa cum ești tu, unic, așa va fi și casa ta! De exemplu, în ce privește <br />
     mobilierul, la ZEBRANO poți pune în practică cele mai năstrușnice și <br />

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./styles/Overlay.css";
-import {TrimiteCotatieBtn} from "./Buttons";
+import {LinkPdC, TrimiteCotatieBtn} from "./Buttons";
 import AnimatedPage from "./components/animations/AnimationPage";
 
 export function Overlay({ isOpen, onClose, children }) {
@@ -61,7 +61,7 @@ export function Overlay({ isOpen, onClose, children }) {
                     </div>
                     <div className="lowerCotatieDiv">
                         <input type="checkbox" className="politicaDeConfidentialitateCotatie" />
-                        <p className="acordPoliticaDeConfidentialitate">Sunt de acord cu Termenii si Conditiile</p>
+                        <p className="acordPoliticaDeConfidentialitate">Sunt de acord cu <LinkPdC /></p>
                     </div>
                     <div className="lowestCotatieDiv">
                       <TrimiteCotatieBtn />

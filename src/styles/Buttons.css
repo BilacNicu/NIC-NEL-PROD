@@ -821,6 +821,14 @@ color: black;
   color: black;
 }
 
+.LinkPdC{
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.LinkPdC:hover{
+  color: rgb(210, 180, 140);
+}
+
 
 /*++++++++++++++++++++++++++++++++++++++++++++++*/
 

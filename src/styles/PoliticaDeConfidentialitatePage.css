@@ -1,0 +1,17 @@
+.politicaDeConfidentialitateDivPG{
+    height: 124vh;
+    width: 100vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.politicaDeConfidentialitateTitle{
+    margin-top: 15vh;
+    font-size: 7vh;
+}
+.politicaDeConfidentialitateTextPG{
+    font-size: 2.5vh;
+    width: 60%;
+    color: rgba(255, 255, 255, 0.674);
+    width: 70%;
+}

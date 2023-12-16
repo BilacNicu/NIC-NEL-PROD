@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './styles/ContactPage.css'
-import {TrimiteIntalnireBtn, LocationBtn, MailBtn, PhoneBtn} from "../src/Buttons";
+import {TrimiteIntalnireBtn, LocationBtn, MailBtn, PhoneBtn, LinkPdC} from "../src/Buttons";
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import TimePicker from 'react-time-picker';
@@ -74,7 +74,7 @@ const ContactPage = () => {
             <div className="politicaDeConfidentialitateDiv">
               <div className="politicaDeConfidentialitateDivLeftSide">
                 <input type="checkbox" className="checkboxPoliticaConfidentialitate" />
-                <p className="politicaDeConfidentialitateText">Sunt de acord cu Politica de Confidentialitate</p>
+                <p className="politicaDeConfidentialitateText">Sunt de acord cu <LinkPdC /></p>
               </div>
               <div className="politicaDeConfidentialitateDivRightSide">
               <TrimiteIntalnireBtn />

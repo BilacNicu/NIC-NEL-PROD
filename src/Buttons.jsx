@@ -21,6 +21,22 @@ const ScrollToPoliticaDeCalitateButtonWithLink = ({ to, children, className }) =
   );
 };
 
+const ScrollToPoliticaDeConfidentialitateLink = ({ to}) => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' 
+    });
+
+
+  };
+  return (
+    <Link to={to} onClick={scrollToTop}>
+    <a className="LinkPdC" target='_blank'>Politica De Confidentialitate</a>
+  </Link>
+  );
+};
+
 const ScrollToTopButtonWithLink = ({ to, children, className }) => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -42,6 +58,17 @@ export const HomeBtn = () => {
       <ScrollToTopButtonWithLink to="/nic-nel-prod/" className="homeBtn">
       Acasa
     </ScrollToTopButtonWithLink>
+      
+    );
+  }
+
+///+++++++++++++++++++++++++++++++++++++++++++++///
+
+  export const LinkPdC = () => {
+    return (
+      <ScrollToPoliticaDeConfidentialitateLink target="_blank" rel="noopener noreferrer" to="/politicaDeConfidentialitate" className="LinkPdC">
+        Politica de Confidentialitate
+    </ScrollToPoliticaDeConfidentialitateLink>
       
     );
   }
