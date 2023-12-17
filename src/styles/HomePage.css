@@ -71,6 +71,7 @@
 }
 
 .titlu{
+  color: rgba(255, 255, 255, 0.84);
   font-size: 45px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   z-index: 1;
@@ -114,10 +115,12 @@
 }
 
 .startTitle{
+  color: white;
   margin-bottom: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .startText{
+  color: rgba(255, 255, 255, 0.674);
   font-size: 1.5rem;
   line-height: 1.8;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -241,6 +244,7 @@
   margin-bottom: 20vh;
 }
 .camereDeZiTitle{
+  color: white;
   font-size: 50px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -266,6 +270,7 @@
   font-size: 4vh;
   transition:all 0.3s ease-in-out;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color:white;
 }
 
 .colectieBucatariiBtnDiv, .colectieDormitoareBtnDiv, .colectieCamereDeZiBtnDiv, .colectieBirouriBtnDiv{
@@ -287,6 +292,7 @@
   display: flex;
   flex-direction: row;
   background-color: #000511;
+  color: rgba(255, 255, 255, 0.674);
 }
 .leftSideSTxt{
   width: 60vw;
@@ -312,6 +318,7 @@
 /* Start Of Tata Lucrand Div */
 
 .tataLucrandTitle{
+  color: white;
   font-size: 6vh;
   margin-bottom: 2vh;font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -321,6 +328,7 @@
   text-align: center;
   margin-bottom: 2vh;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
 }
 
 .tataLucrandDiv{

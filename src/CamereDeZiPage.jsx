@@ -8,7 +8,7 @@ import {AllBtn, BirouriBtn, BucatariiBtn, DormitoareBtn,
    import {OverlayGalleryStandard} from "./styles/gallery/OverlayGalleryStandard";
    import AnimatedPage from './components/animations/AnimationPage';
 import mainTextPicturePicCamereDeZi from "./assets/living.webp";
-import logo from '../public/react.png'
+import logo from "./assets/logo2.png"
 
 const CamereDeZiPage = () => {
 

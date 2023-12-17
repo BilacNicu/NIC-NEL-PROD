@@ -1,6 +1,6 @@
 import './styles/PoliticaDeConfidentialitatePage.css';
 import AnimatedPage from './components/animations/AnimationPage';
-import logo from '../public/react.png';
+import logo from "./assets/logo2.png";
 import { LocationBtn, MailBtn, PhoneBtn } from './Buttons';
 
 const PoliticaDeConfidentialitatePage = () => {

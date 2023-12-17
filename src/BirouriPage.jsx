@@ -7,7 +7,7 @@ import {AllBtn, BirouriBtn, BucatariiBtn, DormitoareBtn,
   import { useEffect, useState } from 'react';
   import {OverlayGalleryStandard} from "./styles/gallery/OverlayGalleryStandard";
   import mainTextPicturePic from "./assets/officeMain.jpg";
-import logo from "../public/react.png";
+import logo from "./assets/logo2.png";
 
 const BirouriPage = () => {
 

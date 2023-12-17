@@ -8,7 +8,7 @@ import AnimatedPage from './components/animations/AnimationPage';
 import { useEffect, useState } from 'react';
 import {OverlayGalleryStandard} from "./styles/gallery/OverlayGalleryStandard";
 import mainTextPicturePicBucatarii from "./assets/bucatarie.jpg";
-import logo from "../public/react.png";
+import logo from "./assets/logo2.png";
 
 const BucatariiPage = () => {
 

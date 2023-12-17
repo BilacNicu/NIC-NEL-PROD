@@ -829,6 +829,12 @@ color: black;
   color: rgb(210, 180, 140);
 }
 
+.homeBtn, .contactBtn, .dropdown-buttonInformatii, .dropdown-buttonPortofoliu,
+.colectieBirouriBtn, .colectieBucatariiBtn, .colectieCamereDeZiBtn, .colectieDormitoareBtn,
+.dormitoareBtn, .bucatariiBtn, .allBtn, .birouriBtn, .camereDeZiBtn,
+.furnitureBtn{
+  color: white;
+}
 
 /*++++++++++++++++++++++++++++++++++++++++++++++*/
 

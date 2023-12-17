@@ -58,6 +58,7 @@
   }
   
   .mainTextAndPictureTitle{
+    color: white;
     font-size: 4rem;
     font-weight: bold;
     margin-left: 8vw; 
@@ -65,6 +66,7 @@
   }
   
   .mainTextAndPictureText{
+    color: rgba(255, 255, 255, 0.674);
     font-size: 1.5rem;
     line-height: 2;
     letter-spacing:1.1;
@@ -92,6 +94,7 @@
     align-self: flex-start;
     margin-left: 10vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
   }
 
   .furnitureTypesPortofoliuBirouriAll, .furnitureTypesPortofoliuBucatariiAll, .furnitureTypesPortofoliuDormitoareAll, .furnitureTypesPortofoliuCamereDeZiAll{
@@ -191,6 +194,7 @@
   .furniture1Title, .furniture2Title, .furniture3Title, .furniture4Title, .furniture5Title, .furniture6Title{
     font-size: 2rem;
     transition:all 0.3s ease-in-out;
+    color: white;
   }
 
   .furniture1:hover .rightAngleFurniture1{

@@ -45,6 +45,7 @@
   }
   
   .mainTextAndPictureTitleDormitoare{
+    color: white;
     font-size: 4rem;
     font-weight: bold;
     margin-left: 8vw; 
@@ -52,6 +53,7 @@
   }
   
   .mainTextAndPictureTextDormitoare{
+    color: rgba(255, 255, 255, 0.674);
     font-size: 1.5rem;
     line-height: 2;
     letter-spacing:1.1;
@@ -150,6 +152,7 @@
     font-size: 3.5vh;
     transition:all 0.3s ease-in-out;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
   }
 
   .furniture1Dormitoare:hover .rightAngleFurniture1Dormitoare{

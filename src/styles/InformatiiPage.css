@@ -42,6 +42,7 @@
   }
 
   .titluDespreNoi{
+    color: white;
     font-size: 4vw;
     font-family:Georgia, 'Times New Roman', Times, serif;
     z-index: 1;
@@ -78,7 +79,7 @@
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-
+    color: white;
     left: 10vh;
     width: 90vw;
     height: 70vh;
@@ -109,6 +110,7 @@
     height: 30px;
     letter-spacing: 2px;
     width: 60vw;
+    color: white;
     
   }
   .titlu2PoliticaCalitatii{
@@ -118,6 +120,7 @@
     height: 30px;
     letter-spacing: 2px;
     width: 60vw;
+    color: white;
   }
   .textPoliticaCalitatii{
     margin-top: 3vh;
@@ -125,12 +128,12 @@
     z-index: 1;
     height: 35vh;
     width: 60vw;
-    color: white;
+    color: rgba(255, 255, 255, 0.674);
     line-height: 1.8;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  @media screen and (max-width: 1500px)
+  @media (max-width: 1800px) and (min-width: 1300px)
   {
     .videoContainerPoliticaCalitatii {
       position: relative;

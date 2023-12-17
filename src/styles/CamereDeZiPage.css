@@ -61,6 +61,7 @@
   }
   
   .mainTextAndPictureTitleCamereDeZi{
+    color: white;
     font-size: 4rem;
     font-weight: bold;
     margin-left: 8vw; 
@@ -68,6 +69,7 @@
   }
   
   .mainTextAndPictureTextCamereDeZi{
+    color: rgba(255, 255, 255, 0.674);
     font-size: 1.5rem;
     line-height: 2;
     letter-spacing:1.1;
@@ -161,7 +163,8 @@
     .furniture1TitleCamereDeZi, .furniture2TitleCamereDeZi, .furniture3TitleCamereDeZi, .furniture4TitleCamereDeZi, .furniture5TitleCamereDeZi, .furniture6TitleCamereDeZi{
       font-size: 3.5vh;
       transition:all 0.3s ease-in-out;
-      font-family:Georgia, 'Times New Roman', Times, serif
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color: white;
     }
   
     .furniture1CamereDeZi:hover .rightAngleFurniture1CamereDeZi{

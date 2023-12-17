@@ -3,7 +3,7 @@ import backgroundVideo2 from '../src/assets/carpentry.mp4';
 import backgroundVideo3 from '../src/assets/carpentry3.mp4';
 import {MailBtn, PhoneBtn, LocationBtn} from '../src/Buttons';
 import AnimatedPage from './components/animations/AnimationPage';
-import logo from "../public/react.png"
+import logo from "./assets/logo2.png"
 
 const InformatiiPage = () => {
 

@@ -37,7 +37,7 @@
 }
 .titluIntalnire{
     font-size: 2.2vw;
-
+    color: white;
 }
 .formIntalnire{
     width: 100%;
@@ -337,6 +337,7 @@
 
 
 .politicaDeConfidentialitateText{
+    color: white;
     margin-left: 8px;
     width: 700px;
     font-size: 1.5vh;
@@ -365,11 +366,13 @@
 }
 
 .contactTitle{
+    color: white;
     font-size: 8vh;
     font-weight: bold;
 }
 
 .atelier, .nrTelefon, .mail{
+    color: white;
     margin-top: 2vh;
     margin-left: 2vw;
 }

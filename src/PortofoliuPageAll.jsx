@@ -1,5 +1,5 @@
 import './styles/PortofoliuPageAll.css'
-import logo from "../public/react.png";
+import logo from "./assets/logo2.png";
 import mainTextPicturePic from "./assets/portofoliu.webp";
 import {OverlayGalleryStandard} from "./styles/gallery/OverlayGalleryStandard"
 import {AllBtn, BirouriBtn, BucatariiBtn, DormitoareBtn,

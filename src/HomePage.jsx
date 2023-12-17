@@ -3,7 +3,7 @@ import backgroundVideo from '../src/assets/room3.mp4';
 import {ColectieBtn, ColectieBtn2, DespreNoiBtn, MailBtn, PhoneBtn, LocationBtn, ColectieBucatariiBtn, ColectieBDormitoareBtn, ColectieCamereDeZiBtn, ColectieBirouriBtn} from '../src/Buttons';
 import AnimatedPage from './components/animations/AnimationPage';
 import React, { useEffect } from 'react';
-import logo from "../public/react.png";
+import logo from "./assets/logo2.png";
 
 const HomePage = () => {
 
@@ -65,14 +65,14 @@ const HomePage = () => {
       </div>
       <div className="startInfoRightSide hiddenRight">
       <h1 className='startTitle'>Lux & Confort</h1>
-      <p className='startText'>La Nic Nel, ținem cont de dorințele tale, promițând un design <br />
-  interior personalizat și mobilier de lux personalizat pentru casa ta, biroul tău sau <br />
-  orice alt spațiu special care are nevoie de un design profesional, de neegalat. <br />
-  Scopul nostru este să te facem să te simți confortabil și să-ți îmbunătățim stilul <br />
-  de viață în orice spațiu în care fie locuiești, fie petreci o bună parte a timpului tău. <br />
-  Tocmai de aceea, știm că ideea de confort vine în forme personalizate și subiective, <br />
-  așa că îți punem la dispoziție o varietate de materiale și finisaje de lux, cu suprafețe <br />
-  și stiluri sofisticate, realizate manual, cu multă pricepere și pasiune.
+      <p className='startText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br />
+        labore et dolore magna aliqua. Sagittis vitae et leo duis ut diam quam. Felis donec et odio <br />
+        pellentesque diam volutpat. Risus ultricies tristique nulla aliquet enim tortor at auctor. <br /> 
+        Lacus vestibulum sed arcu non odio. Tortor posuere ac ut consequat semper. Sem integer <br />
+        justo eget magna fermentum. Cras pulvinar mattis nunc sed. Tellus pellentesque eu tincidunt <br />
+        tortor aliquam nulla facilisi cras fermentum. Ac turpis egestas integer eget aliquet. Ultricies 
+        tristique nulla aliquet enim tortor at. Quis enim lobortis scelerisque fermentum dui faucibus. <br />
+        Scelerisque varius morbi enim nunc. Velit scelerisque in dictum non. Nisi porta lorem mollis <br />
    </p>
     <ColectieBtn /> 
       </div>
@@ -128,12 +128,11 @@ const HomePage = () => {
   <div className="secondText">
     <div className="leftSideSTxt hiddenLeft50">
     <p className="startSText">
-    Așa cum ești tu, unic, așa va fi și casa ta! De exemplu, în ce privește <br />
-    mobilierul, la ZEBRANO poți pune în practică cele mai năstrușnice și <br />
-    nemaiîntâlnite idei, ori unele de care te-ai lovit de-a lungul vieții, <br />
-     te-au marcat și ți le-ai dorit și la tine acasă. Aici nu-ți vei mai <br />
-     face griji că nu găsești ceva la care ai visat dintotdeauna, pentru că, <br />
-     prin mobilier la comandă, casa ta va arăta exact cum îți dorești! <br />
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />
+        labore et dolore magna aliqua. Sagittis vitae et leo duis ut diam quam. Felis <br />
+        pellentesque diam volutpat. Risus ultricies tristique nulla aliquet enim tortor <br /> 
+        Lacus vestibulum sed arcu non odio. Tortor posuere ac ut consequat semper. <br />
+        justo eget magna fermentum. Cras pulvinar mattis nunc sed. Tellus pellentesque eu tincidunt. <br />
     </p>
     <ColectieBtn2 />
     </div>
@@ -147,10 +146,9 @@ const HomePage = () => {
     <div className="tataLucrand">
       <h className="tataLucrandTitle">Calitate din 1994</h>
       <p className="tataLucrandText">
-      Cu un design perfect, mobilierul clasic, avangardist și modern marca Nic Nel este <br />
-       expus în 40 de magazine concept din țară și din străinătate, spre încântarea celor care <br />
-        sunt pasionați de calitate și de rafinament. Brandul se remarcă, deci, în mod sigur, <br />
-        prin finisaje de lux.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br />
+        labore et dolore magna aliqua. Sagittis vitae et leo duis ut diam quam. Felis donec et odio <br />
+        pellentesque diam volutpat. Risus ultricies tristique nulla aliquet enim tortor at auctor. <br /> 
       </p>
       <DespreNoiBtn />
     </div>

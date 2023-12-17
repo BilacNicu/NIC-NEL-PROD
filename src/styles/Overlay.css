@@ -54,6 +54,7 @@
 }
 
 .titluCotatie{
+    color: white;
     margin-left: 0;
     font-size: 4vh;
 }
@@ -260,6 +261,7 @@ input:-webkit-autofill {
     justify-content: center;
 }
 .acordPoliticaDeConfidentialitate{
+    color: white;
     margin-left: 5px;
     font-size: 1.7vh;
 }
