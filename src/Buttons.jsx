@@ -8,7 +8,7 @@ import App from "./App";
 const ScrollToPoliticaDeCalitateButtonWithLink = ({ to, children, className }) => {
   const scrollToTop = () => {
     window.scrollTo({
-      top: 1000,
+      top: 660,
       behavior: 'smooth' 
     });
 

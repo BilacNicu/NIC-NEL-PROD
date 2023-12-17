@@ -192,6 +192,7 @@
   }
   
   .ListPortofoliuBirouriBtn, .ListPortofoliuBucatariiBtn, .ListPortofoliuDormitoareBtn, .ListPortofoliuCamereDeZiBtn{
+    color: white;
     height: 4vh;
     width: 160px;
     font-size: 1.35vh;
@@ -325,6 +326,7 @@
   }
 
   .ListInformatiiPoliticaCalitatiiBtn, .ListInformatiiDespreNoiBtn {
+    color: white;
     height: 4vh;
     width: 180px;
     font-size: 1.35vh;
