@@ -130,8 +130,8 @@ const HomePage = () => {
     <p className="startSText">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />
         labore et dolore magna aliqua. Sagittis vitae et leo duis ut diam quam. Felis <br />
-        pellentesque diam volutpat. Risus ultricies tristique nulla aliquet enim tortor <br /> 
-        Lacus vestibulum sed arcu non odio. Tortor posuere ac ut consequat semper. <br />
+        pellentesque diam volutpat. Risus ultricies tristique nulla aliquet enim  <br /> 
+        Lacus vestibulum sed arcu non odio. Tortor posuere ac ut consequat <br />
         justo eget magna fermentum. Cras pulvinar mattis nunc sed. Tellus pellentesque eu tincidunt. <br />
     </p>
     <ColectieBtn2 />
