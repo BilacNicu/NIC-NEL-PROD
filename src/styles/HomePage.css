@@ -121,7 +121,7 @@
 }
 .startText{
   color: rgba(255, 255, 255, 0.674);
-  font-size: 3vh;
+  font-size: 2.1vh;
   line-height: 1.8;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -306,7 +306,7 @@
   max-height: 300px;
 }
 .startSText{
-  font-size: 3vh;
+  font-size: 2.5vh;
   line-height: 1.8;
   margin-left: 10vw;
   min-width: 730px;
@@ -323,7 +323,7 @@
   margin-bottom: 2vh;font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .tataLucrandText{
-  font-size: 3vh;
+  font-size: 2.5vh;
   line-height: 1.8;
   text-align: center;
   margin-bottom: 2vh;
@@ -409,5 +409,14 @@
 @media screen and (max-width: 1800px) and (min-width: 1300px){
   .colectieBucatariiBtnDiv, .colectieDormitoareBtnDiv, .colectieCamereDeZiBtnDiv, .colectieBirouriBtnDiv{
     width: 180px;
+  }
+  .startSText{
+    font-size: 3vh;
+  }
+  .startText{
+    font-size: 3vh;
+  }
+  .tataLucrandText{
+    font-size: 3vh;
   }
 }
