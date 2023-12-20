@@ -310,9 +310,9 @@ input:-webkit-autofill {
     }
     .numeCotatieLabel{
         position: absolute;
-        top: 11.7vh;
+        top: 12.5vh;
         font-size: 2.7vh;
-        left: 4.5vw;
+        left: 4.7vw;
         transition: all 0.2s ease-in-out;
         cursor:text;
     }
@@ -344,9 +344,9 @@ input:-webkit-autofill {
     }
     .prenumeCotatieLabel{
         position: absolute;
-        top: 11.7vh;
+        top: 12.5vh;
         font-size: 2.7vh;
-        left: 23.55vw;
+        left: 23.7vw;
         transition: all 0.2s ease-in-out;
         cursor:text;
     }
@@ -384,9 +384,9 @@ input:-webkit-autofill {
     }
     .numarTelefonCotatieLabel{
         position: absolute;
-        top: 20.95vh;
+        top: 21.75vh;
         font-size: 2.7vh;
-        left: 4.5vw;
+        left: 4.7vw;
         transition: all 0.2s ease-in-out;
         cursor:text;
     }
@@ -417,9 +417,9 @@ input:-webkit-autofill {
     }
     .mailCotatieLabel{
         position: absolute;
-        top: 20.95vh;
+        top: 21.75vh;
         font-size: 2.7vh;
-        left: 23.55vw;
+        left: 23.7vw;
         transition: all 0.2s ease-in-out;
         cursor:text;
     }
@@ -463,9 +463,9 @@ input:-webkit-autofill {
       
     .mesajCotatieLabel{
         position: absolute;
-        top: 31.4vh;
+        top: 31.9vh;
         font-size: 2.75vh;
-        left: 4.5vw;
+        left: 4.7vw;
         transition: all 0.2s ease-in-out;
         cursor:text;
     }
