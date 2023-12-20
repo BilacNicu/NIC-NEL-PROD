@@ -94,8 +94,8 @@
 
 @media screen and (max-width: 1800px) and (min-width: 1300px){    
 .overlayContainerGS{
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: center; /* Center the image horizontally */
+    background-repeat: no-repeat; 
+    background-position: center; 
     background-size: 100% 100%;
     position: fixed;
     top: 0;
